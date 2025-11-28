@@ -27,3 +27,9 @@ variable "project_name" {
 variable "environment" {
   type = string
 }
+
+variable "igw_tags" {
+    type = map
+    default = {}
+  
+}
